@@ -1,0 +1,34 @@
+#movies img,
+#movie img {
+    width: 100%;
+}
+
+#movies .col-md-3 {
+    margin-bottom: 50px;
+}
+
+@media(min-width:960px) {
+    #movies .col-md-3 .well {
+        height: 500px;
+    }
+    #movies .col-md-3 img {
+        height: 340px;
+    }
+}
+
+.plot {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    padding: 15px;
+    text-align: left;
+}
+
+.inplot {
+    border-left: 5px solid #bec0c4;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.inplot a {
+    margin: 10px 0px 10px 0px;
+}
